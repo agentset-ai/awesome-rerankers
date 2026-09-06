@@ -221,7 +221,7 @@ Key metrics for assessing reranker performance:
 - **[Is ChatGPT Good at Search? Investigating Large Language Models as Re-Ranking Agents](https://arxiv.org/abs/2304.09542)** (2023) - Introduces RankGPT for zero-shot LLM reranking.
 - **[RankRAG: Unifying Context Ranking with Retrieval-Augmented Generation in LLMs](https://arxiv.org/abs/2407.02485)** (2024) - Unified framework for context ranking and answer generation.
 
-### Recent Advances (2024-2025)
+### Recent Advances (2024-2026)
 
 #### Cross-Encoder Innovations
 
@@ -233,6 +233,7 @@ Key metrics for assessing reranker performance:
 
 #### LLM-Based Reranking
 
+- **[CompRank: Efficient LLM Reranking via Token-Level Compression and Decoding-Free Scoring](https://arxiv.org/abs/2606.11700)** (June 2026) - Combines reusable document-side representations, segment-wise token compression, and attention-based scoring to reduce computation on long candidate lists without autoregressive decoding.
 - **[FIRST: Faster Improved Listwise Reranking with Single Token Decoding](https://arxiv.org/abs/2406.15657)** (June 2024) - Accelerates LLM reranking inference by 50% using output logits of first generated identifier while maintaining robust performance across BEIR benchmark.
 - **[InsertRank: LLMs can reason over BM25 scores to Improve Listwise Reranking](https://arxiv.org/abs/2506.14086)** (June 2025) - Demonstrates consistent gains by injecting BM25 scores into zero-shot listwise prompts across Gemini, GPT-4, and Deepseek models.
 - **[JudgeRank: Leveraging Large Language Models for Reasoning-Intensive Reranking](https://arxiv.org/abs/2411.00142)** (October 2024) - Agentic reranker using Chain-of-Thought reasoning with query analysis, document analysis, and relevance judgment steps, excelling on BRIGHT benchmark.
