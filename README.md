@@ -101,6 +101,11 @@ Cross-encoders jointly encode query and document pairs for accurate relevance sc
 - [mxbai-rerank-base-v2](https://huggingface.co/mixedbread-ai/mxbai-rerank-base-v2) - 0.5B params (Qwen-2.5)
 - [mxbai-rerank-large-v2](https://huggingface.co/mixedbread-ai/mxbai-rerank-large-v2) - 1.5B params, top BEIR scores
 
+**Lupe** ([HuggingFace](https://huggingface.co/syntriq))
+- [lupe-multilingual-reranker-small](https://huggingface.co/syntriq/lupe-multilingual-reranker-small) - 141M params, 36 languages, ONNX int8 export
+- [lupe-multilingual-reranker-base](https://huggingface.co/syntriq/lupe-multilingual-reranker-base) - 308M params, 36 languages, ONNX int8 export
+- [lupe-multilingual-reranker-large](https://huggingface.co/syntriq/lupe-multilingual-reranker-large) - 568M params, fine-tune of bge-reranker-v2-m3, 36 languages
+
 **MS MARCO Models**
 - [ms-marco-MiniLM-L-12-v2](https://huggingface.co/cross-encoder/ms-marco-MiniLM-L-12-v2) - Efficient
 - [ms-marco-TinyBERT-L-6](https://huggingface.co/cross-encoder/ms-marco-TinyBERT-L-6) - Ultra-lightweight
